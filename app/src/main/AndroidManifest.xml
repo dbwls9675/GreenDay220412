@@ -18,6 +18,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name =".Day1Activity" android:label ="Day1 액티비티"/>
     </application>
 
 </manifest>
