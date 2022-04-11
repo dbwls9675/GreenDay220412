@@ -61,9 +61,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dp"
                 android:background="#ffff00"
-                android:text="1. 시간부사"
+                android:text="5. 시간 전치사(시점)"
                 android:textColor="#000000"
-                android:textSize="36dp"
+                android:textSize="30dp"
                 android:textStyle="bold" />
 
             <TableLayout
@@ -111,21 +111,34 @@
                         android:orientation="vertical"
                         android:textAppearance="?android:attr/textAppearanceLarge">
 
-                        <TextView
+                        <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Already는 '이미, 벌써'"
-                            android:textColor="#ff0000"
-                            android:textSize="20dp" />
+                            android:orientation="horizontal">
 
-                        <TextView
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Sinece ~아래로      From ~부터"
+                                android:textColor="#000000"
+                                android:textSize="19dp" />
+                        </LinearLayout>
+
+                        <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text=" 라는 뜻을 가지며 긍정문에서 사용된다."
-                            android:textColor="#000000"
-                            android:textSize="20dp" />
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Until/by ~까지      before ~전에"
+                                android:textColor="#000000"
+                                android:textSize="19dp" />
+                        </LinearLayout>
 
                     </LinearLayout>
+
                 </TableRow>
             </TableLayout>
 
@@ -180,34 +193,35 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="The durector has "
+                                android:text="The construction work will"
                                 android:textColor="#000000"
                                 android:textSize="20dp" />
 
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="already"
-                                android:textColor="#0000ff"
-                                android:textSize="20dp" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text=" approved"
-                                android:textColor="#000000"
-                                android:textSize="20dp" />
                         </LinearLayout>
 
                         <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:orientation="vertical">
+                            android:orientation="horizontal">
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="the new logo design yesterday."
+                                android:text="be finished "
+                                android:textColor="#000000"
+                                android:textSize="20dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="before "
+                                android:textColor="#ff0000"
+                                android:textSize="20dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="January."
                                 android:textColor="#000000"
                                 android:textSize="20dp" />
 
@@ -232,9 +246,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dp"
                 android:background="#ffff00"
-                android:text="1. 시간부사"
+                android:text="5. 시간 전치사(기간)"
                 android:textColor="#000000"
-                android:textSize="36dp"
+                android:textSize="30dp"
                 android:textStyle="bold" />
 
             <TableLayout
@@ -290,14 +304,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Still은 '아직, 여전히'"
-                                android:textColor="#ff0000"
-                                android:textSize="20dp" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="라는 뜻을"
+                                android:text="For/during ~동안"
                                 android:textColor="#000000"
                                 android:textSize="20dp" />
 
@@ -306,17 +313,31 @@
                         <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:orientation="vertical">
+                            android:orientation="horizontal">
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:gravity="center"
-                                android:text="가지며 긍정문, 부정문 그리고 \n의무문에서 사용된다."
+                                android:text="Over/through ~동안"
                                 android:textColor="#000000"
                                 android:textSize="20dp" />
 
                         </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="within ~이내에"
+                                android:textColor="#000000"
+                                android:textSize="20dp" />
+
+                        </LinearLayout>
+
                     </LinearLayout>
                 </TableRow>
             </TableLayout>
@@ -372,34 +393,28 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Senator Bedford is "
+                                android:text="Mr. Majors and Tim led participants"
                                 android:textColor="#000000"
                                 android:textSize="20dp" />
 
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="still"
-                                android:textColor="#0000ff"
-                                android:textSize="20dp" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text=" considering"
-                                android:textColor="#000000"
-                                android:textSize="20dp" />
                         </LinearLayout>
 
                         <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:orientation="vertical">
+                            android:orientation="horizontal">
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="whether to run for reelection."
+                                android:text="through "
+                                android:textColor="#ff0000"
+                                android:textSize="20dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="the registration process."
                                 android:textColor="#000000"
                                 android:textSize="20dp" />
 
@@ -424,9 +439,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dp"
                 android:background="#ffff00"
-                android:text="1. 시간부사"
+                android:text="5. 시간 전치사 구별"
                 android:textColor="#000000"
-                android:textSize="36dp"
+                android:textSize="30dp"
                 android:textStyle="bold" />
 
             <TableLayout
@@ -482,49 +497,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Yet은 "
-                                android:textColor="#000000"
-                                android:textSize="20dp" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="'아직'(부정문) "
-                                android:textColor="#ff0000"
-                                android:textSize="20dp" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="그리고 "
-                                android:textColor="#000000"
-                                android:textSize="20dp" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="'이미,"
-                                android:textColor="#0000ff"
-                                android:textSize="20dp" />
-
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:orientation="horizontal">
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="벌써'(의문문)"
-                                android:textColor="#0000ff"
-                                android:textSize="20dp" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="라는 뜻으로 예상하고 "
+                                android:text="시점을 나타내는 전치사 뒤에 시점만"
                                 android:textColor="#000000"
                                 android:textSize="20dp" />
 
@@ -538,7 +511,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="있는 일이 일어났는지 물을 때 쓰인다."
+                                android:text="기간을 나타내는 전치사 뒤엔 기간만"
                                 android:textColor="#000000"
                                 android:textSize="20dp" />
 
@@ -598,16 +571,30 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Has the schedule been posted"
+                                android:text="I have studied economics"
                                 android:textColor="#000000"
+                                android:textSize="20dp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="(for) "
+                                android:textColor="#0000ff"
                                 android:textSize="20dp" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text=" yet?"
-                                android:textColor="#219102"
+                                android:text="three years."
+                                android:textColor="#000000"
                                 android:textSize="20dp" />
+
                         </LinearLayout>
                     </LinearLayout>
                 </TableRow>
@@ -629,7 +616,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dp"
                 android:background="#ffff00"
-                android:text="1. 시간부사"
+                android:text="5. 전치사"
                 android:textColor="#000000"
                 android:textSize="36dp"
                 android:textStyle="bold" />
@@ -687,9 +674,17 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Have yet to + 동사원형 "
+                                android:text="Until은 "
+                                android:textColor="#000000"
+                                android:textSize="19dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="'상황, 상태가 계속될 때까지'"
                                 android:textColor="#ff0000"
-                                android:textSize="20dp" />
+                                android:textSize="19dp" />
+
                         </LinearLayout>
 
                         <LinearLayout
@@ -700,12 +695,25 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text=": 아직 ~하지 못했다."
+                                android:text="By는 "
                                 android:textColor="#000000"
-                                android:textSize="20dp" />
+                                android:textSize="18dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="'행동이 발생할 때까지'"
+                                android:textColor="#0000ff"
+                                android:textSize="18dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="를 의미."
+                                android:textColor="#000000"
+                                android:textSize="18dp" />
 
                         </LinearLayout>
-
                     </LinearLayout>
                 </TableRow>
             </TableLayout>
@@ -761,16 +769,10 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="The students "
+                                android:text="The library will be open "
                                 android:textColor="#000000"
                                 android:textSize="20dp" />
 
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="have yet to turn"
-                                android:textColor="#0000ff"
-                                android:textSize="20dp" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -781,7 +783,14 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="in their term papers."
+                                android:text="until "
+                                android:textColor="#ff0000"
+                                android:textSize="20dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="7 o' clock."
                                 android:textColor="#000000"
                                 android:textSize="20dp" />
 
@@ -806,7 +815,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dp"
                 android:background="#ffff00"
-                android:text="1. 시간부사"
+                android:text="5. 전치사"
                 android:textColor="#000000"
                 android:textSize="36dp"
                 android:textStyle="bold" />
@@ -861,21 +870,12 @@
                             android:layout_height="wrap_content"
                             android:orientation="horizontal">
 
-
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Finally"
-                                android:textColor="#ff0000"
-                                android:textSize="19dp" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="는 오래 기다리던 일이 일어날때"
+                                android:text="two weeks from now 지금부터 2주 후에"
                                 android:textColor="#000000"
                                 android:textSize="19dp" />
-
 
                         </LinearLayout>
 
@@ -887,19 +887,39 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Soon"
-                                android:textColor="#0000ff"
-                                android:textSize="19dp" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="은 곧 일이 일어날 예정일 때 쓰인다."
+                                android:text="two weeks prior to the data"
                                 android:textColor="#000000"
                                 android:textSize="19dp" />
 
                         </LinearLayout>
 
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="그날 2주 전에"
+                                android:textColor="#000000"
+                                android:textSize="19dp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="from 5 o'clock onward 5시 이후"
+                                android:textColor="#000000"
+                                android:textSize="19dp" />
+
+                        </LinearLayout>
                     </LinearLayout>
                 </TableRow>
             </TableLayout>
@@ -955,7 +975,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="The committee's recommendations"
+                                android:text="The market will be open "
                                 android:textColor="#000000"
                                 android:textSize="20dp" />
 
@@ -969,29 +989,14 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="will be announced "
-                                android:textColor="#000000"
-                                android:textSize="20dp" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="soon "
-                                android:textColor="#08B302"
-                                android:textSize="20dp" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="to them."
-                                android:textColor="#000000"
+                                android:text="two weeks from now."
+                                android:textColor="#0000ff"
                                 android:textSize="20dp" />
                         </LinearLayout>
                     </LinearLayout>
                 </TableRow>
             </TableLayout>
         </LinearLayout><!--page5 end-->
-
 
     </ViewFlipper>
 </LinearLayout>

@@ -61,9 +61,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dp"
                 android:background="#ffff00"
-                android:text="1. 시간부사"
+                android:text="3. 부정대명사 : Some/Any"
                 android:textColor="#000000"
-                android:textSize="36dp"
+                android:textSize="30dp"
                 android:textStyle="bold" />
 
             <TableLayout
@@ -111,21 +111,41 @@
                         android:orientation="vertical"
                         android:textAppearance="?android:attr/textAppearanceLarge">
 
-                        <TextView
+                        <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Already는 '이미, 벌써'"
-                            android:textColor="#ff0000"
-                            android:textSize="20dp" />
+                            android:orientation="horizontal">
 
-                        <TextView
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="권유나 요청"
+                                android:textColor="#ff0000"
+                                android:textSize="20dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="을 나타내는 의문문일"
+                                android:textColor="#000000"
+                                android:textSize="20dp" />
+                        </LinearLayout>
+
+                        <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text=" 라는 뜻을 가지며 긍정문에서 사용된다."
-                            android:textColor="#000000"
-                            android:textSize="20dp" />
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="경우에는 Some을 사용한다."
+                                android:textColor="#000000"
+                                android:textSize="20dp" />
+                        </LinearLayout>
 
                     </LinearLayout>
+
                 </TableRow>
             </TableLayout>
 
@@ -180,34 +200,21 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="The durector has "
+                                android:text="Would you like to have"
                                 android:textColor="#000000"
                                 android:textSize="20dp" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="already"
-                                android:textColor="#0000ff"
+                                android:text=" some"
+                                android:textColor="#ff0000"
                                 android:textSize="20dp" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text=" approved"
-                                android:textColor="#000000"
-                                android:textSize="20dp" />
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical">
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="the new logo design yesterday."
+                                android:text=" coffee?"
                                 android:textColor="#000000"
                                 android:textSize="20dp" />
 
@@ -232,9 +239,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dp"
                 android:background="#ffff00"
-                android:text="1. 시간부사"
+                android:text="3. 부정대명사 : Some/Any"
                 android:textColor="#000000"
-                android:textSize="36dp"
+                android:textSize="30dp"
                 android:textStyle="bold" />
 
             <TableLayout
@@ -290,16 +297,17 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Still은 '아직, 여전히'"
+                                android:text="Any"
                                 android:textColor="#ff0000"
                                 android:textSize="20dp" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="라는 뜻을"
+                                android:text="가 긍정문에 쓰이는 경우에는"
                                 android:textColor="#000000"
                                 android:textSize="20dp" />
+
 
                         </LinearLayout>
 
@@ -312,7 +320,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
-                                android:text="가지며 긍정문, 부정문 그리고 \n의무문에서 사용된다."
+                                android:text="'어떤~라도'라는 의미를 갖는다."
                                 android:textColor="#000000"
                                 android:textSize="20dp" />
 
@@ -372,21 +380,14 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Senator Bedford is "
-                                android:textColor="#000000"
+                                android:text="Any"
+                                android:textColor="#ff0000"
                                 android:textSize="20dp" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="still"
-                                android:textColor="#0000ff"
-                                android:textSize="20dp" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text=" considering"
+                                android:text=" question will be answered at the"
                                 android:textColor="#000000"
                                 android:textSize="20dp" />
                         </LinearLayout>
@@ -399,7 +400,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="whether to run for reelection."
+                                android:text="end of the professor's presentation."
                                 android:textColor="#000000"
                                 android:textSize="20dp" />
 
@@ -424,9 +425,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dp"
                 android:background="#ffff00"
-                android:text="1. 시간부사"
+                android:text="3. 부정대명사 : Some/Any"
                 android:textColor="#000000"
-                android:textSize="36dp"
+                android:textSize="30dp"
                 android:textStyle="bold" />
 
             <TableLayout
@@ -482,49 +483,14 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Yet은 "
-                                android:textColor="#000000"
-                                android:textSize="20dp" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="'아직'(부정문) "
+                                android:text="Something, somebody, someone"
                                 android:textColor="#ff0000"
                                 android:textSize="20dp" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="그리고 "
-                                android:textColor="#000000"
-                                android:textSize="20dp" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="'이미,"
-                                android:textColor="#0000ff"
-                                android:textSize="20dp" />
-
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:orientation="horizontal">
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="벌써'(의문문)"
-                                android:textColor="#0000ff"
-                                android:textSize="20dp" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="라는 뜻으로 예상하고 "
+                                android:text="도"
                                 android:textColor="#000000"
                                 android:textSize="20dp" />
 
@@ -538,7 +504,48 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="있는 일이 일어났는지 물을 때 쓰인다."
+                                android:text="긍정문에 쓰고 "
+                                android:textColor="#000000"
+                                android:textSize="20dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Anything, anybody,"
+                                android:textColor="#0000ff"
+                                android:textSize="20dp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="anyone"
+                                android:textColor="#0000ff"
+                                android:textSize="20dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="역시 부정문, 의문문, "
+                                android:textColor="#000000"
+                                android:textSize="20dp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" 조건문에 사용된다."
                                 android:textColor="#000000"
                                 android:textSize="20dp" />
 
@@ -598,16 +605,52 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Has the schedule been posted"
+                                android:text="There's "
                                 android:textColor="#000000"
                                 android:textSize="20dp" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text=" yet?"
-                                android:textColor="#219102"
+                                android:text="somebody"
+                                android:textColor="#ff0000"
                                 android:textSize="20dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" at the door."
+                                android:textColor="#000000"
+                                android:textSize="20dp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="I don't want "
+                                android:textColor="#000000"
+                                android:textSize="20dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="anything "
+                                android:textColor="#0000ff"
+                                android:textSize="20dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="to eat."
+                                android:textColor="#000000"
+                                android:textSize="20dp" />
+
                         </LinearLayout>
                     </LinearLayout>
                 </TableRow>
@@ -629,7 +672,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dp"
                 android:background="#ffff00"
-                android:text="1. 시간부사"
+                android:text="3. No / None"
                 android:textColor="#000000"
                 android:textSize="36dp"
                 android:textStyle="bold" />
@@ -687,9 +730,16 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Have yet to + 동사원형 "
+                                android:text="No"
                                 android:textColor="#ff0000"
-                                android:textSize="20dp" />
+                                android:textSize="18dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="는 형용사로 뒤에 반드시 명사가 오지만"
+                                android:textColor="#000000"
+                                android:textSize="18dp" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -700,12 +750,18 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text=": 아직 ~하지 못했다."
+                                android:text="None"
+                                android:textColor="#0000ff"
+                                android:textSize="18dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="은 대명사로 혼자 명사 자리에 온다."
                                 android:textColor="#000000"
-                                android:textSize="20dp" />
+                                android:textSize="18dp" />
 
                         </LinearLayout>
-
                     </LinearLayout>
                 </TableRow>
             </TableLayout>
@@ -761,15 +817,22 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="The students "
+                                android:text="As I had "
                                 android:textColor="#000000"
                                 android:textSize="20dp" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="have yet to turn"
-                                android:textColor="#0000ff"
+                                android:text="no "
+                                android:textColor="#ff0000"
+                                android:textSize="20dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="money, I paid"
+                                android:textColor="#000000"
                                 android:textSize="20dp" />
                         </LinearLayout>
 
@@ -781,7 +844,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="in their term papers."
+                                android:text="with my credit card."
                                 android:textColor="#000000"
                                 android:textSize="20dp" />
 
@@ -806,7 +869,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dp"
                 android:background="#ffff00"
-                android:text="1. 시간부사"
+                android:text="3. Most / Almost"
                 android:textColor="#000000"
                 android:textSize="36dp"
                 android:textStyle="bold" />
@@ -861,21 +924,19 @@
                             android:layout_height="wrap_content"
                             android:orientation="horizontal">
 
-
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Finally"
+                                android:text="most"
                                 android:textColor="#ff0000"
                                 android:textSize="19dp" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="는 오래 기다리던 일이 일어날때"
+                                android:text="는 '대부분(의)'라는 의미로 대명사와"
                                 android:textColor="#000000"
                                 android:textSize="19dp" />
-
 
                         </LinearLayout>
 
@@ -887,14 +948,35 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Soon"
+                                android:text="형용사로 쓰이고, "
+                                android:textColor="#000000"
+                                android:textSize="19dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="almost"
                                 android:textColor="#0000ff"
                                 android:textSize="19dp" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="은 곧 일이 일어날 예정일 때 쓰인다."
+                                android:text="는 '거의'라는"
+                                android:textColor="#000000"
+                                android:textSize="19dp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="의미로 부사로 사용된다."
                                 android:textColor="#000000"
                                 android:textSize="19dp" />
 
@@ -955,7 +1037,14 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="The committee's recommendations"
+                                android:text="Most "
+                                android:textColor="#ff0000"
+                                android:textSize="20dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="of the schools are colsed"
                                 android:textColor="#000000"
                                 android:textSize="20dp" />
 
@@ -969,29 +1058,15 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="will be announced "
+                                android:text="because of weather conditions."
                                 android:textColor="#000000"
                                 android:textSize="20dp" />
 
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="soon "
-                                android:textColor="#08B302"
-                                android:textSize="20dp" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="to them."
-                                android:textColor="#000000"
-                                android:textSize="20dp" />
                         </LinearLayout>
                     </LinearLayout>
                 </TableRow>
             </TableLayout>
         </LinearLayout><!--page5 end-->
-
 
     </ViewFlipper>
 </LinearLayout>

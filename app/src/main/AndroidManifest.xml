@@ -18,7 +18,24 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name =".Day1Activity" android:label ="Day1 액티비티"/>
+        <activity
+            android:name=".Day1Activity"
+            android:label="Day1 액티비티" />
+        <activity
+            android:name=".Day2Activity"
+            android:label="Day2 액티비티" />
+        <activity
+            android:name=".Day3Activity"
+            android:label="Day3 액티비티" />
+        <activity
+            android:name=".Day4Activity"
+            android:label="Day4 액티비티" />
+        <activity
+            android:name=".Day5Activity"
+            android:label="Day5 액티비티" />
+        <activity
+            android:name=".Day6Activity"
+            android:label="Day6 액티비티" />
     </application>
 
 </manifest>

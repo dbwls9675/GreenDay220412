@@ -7,7 +7,7 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.ViewFlipper;
 
-public class Day1Activity extends Activity {
+public class Day2Activity extends Activity {
     Button btn1, btn2, btnBack;
     TextView currentText;
     ViewFlipper vFlipper;
@@ -16,7 +16,7 @@ public class Day1Activity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.day1);
+        setContentView(R.layout.day2);
 
         btnBack = (Button) findViewById(R.id.btnReturn);//돌아가기
         btn1 = (Button) findViewById(R.id.prevBtn);//이전
@@ -63,3 +63,4 @@ public class Day1Activity extends Activity {
     }
 
 }
+
