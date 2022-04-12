@@ -1,6 +1,7 @@
 package com.example.Grammar_English;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -18,6 +19,9 @@ public class EngDay2 extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.engstudy2);
 
+        Intent intent = getIntent();
+        int num = intent.getIntExtra("number2", 0);
+
         btnBack = (Button) findViewById(R.id.btnReturn);//돌아가기
         btn1 = (Button) findViewById(R.id.prevBtn);//이전
         btn2 = (Button) findViewById(R.id.nextBtn);//다음
@@ -26,10 +30,20 @@ public class EngDay2 extends Activity {
 
         //현재 페이지 수
         vfCount = vFlipper.getChildCount();
-        currentText.setText("1" + "/" + vfCount);
+
+        // MainActivity에서 받은 getIntExtra에 맞춰서 page를 넘기는 부분
+        for (int i = 0; i < num - 1; i++) {
+            vFlipper.showNext();
+        }
+
+        curNum = num - 1;// 페이지가 꼬이지 않게
+        currentText.setText(num + "/" + vfCount);// 초기 페이지 설정
 
         btnBack.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
+                Intent outIntent = new Intent(getApplicationContext(), MainActivity.class);
+                outIntent.putExtra("number2", curNum);
+                setResult(RESULT_OK, outIntent);
                 finish();
             }
         });
@@ -63,4 +77,3 @@ public class EngDay2 extends Activity {
     }
 
 }
-

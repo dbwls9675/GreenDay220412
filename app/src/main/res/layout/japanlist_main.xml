@@ -12,6 +12,12 @@
         android:layout_height="fill_parent"
         android:orientation="vertical">
 
+        <Button
+            android:id="@+id/goenglish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="영어로 가기" />
+
         <!--List1 start-->
         <LinearLayout
             android:id="@+id/list1"
@@ -24,7 +30,6 @@
             android:background="#bd91ff"
             android:clickable="true"
             android:orientation="vertical">
-
 
             <LinearLayout
                 android:layout_width="340dp"
@@ -69,16 +74,17 @@
                     "/>
 
                     <TextView
-                        android:layout_width="23dp"
+                        android:id="@+id/JlistNum1"
+                        android:layout_width="15dp"
                         android:layout_height="match_parent"
-                        android:text="0/"
+                        android:text="1"
                         android:textColor="#000000"
                         android:textSize="22dp" />
 
                     <TextView
-                        android:layout_width="14dp"
+                        android:layout_width="25dp"
                         android:layout_height="match_parent"
-                        android:text="5"
+                        android:text="/5"
                         android:textColor="#cccccc"
                         android:textSize="22dp"
                         android:textStyle="bold" />
@@ -164,19 +170,19 @@
                         android:layout_height="21dp"
                         android:layout_marginTop="-3dp"
                         android:background="@android:drawable/btn_star_big_on" />
-                    "/>
 
                     <TextView
-                        android:layout_width="23dp"
+                        android:id="@+id/JlistNum2"
+                        android:layout_width="15dp"
                         android:layout_height="match_parent"
-                        android:text="0/"
+                        android:text="1"
                         android:textColor="#000000"
                         android:textSize="22dp" />
 
                     <TextView
-                        android:layout_width="14dp"
+                        android:layout_width="25dp"
                         android:layout_height="match_parent"
-                        android:text="5"
+                        android:text="/5"
                         android:textColor="#cccccc"
                         android:textSize="22dp"
                         android:textStyle="bold" />
@@ -262,19 +268,19 @@
                         android:layout_height="21dp"
                         android:layout_marginTop="-3dp"
                         android:background="@android:drawable/btn_star_big_on" />
-                    "/>
 
                     <TextView
-                        android:layout_width="23dp"
+                        android:id="@+id/JlistNum3"
+                        android:layout_width="15dp"
                         android:layout_height="match_parent"
-                        android:text="0/"
+                        android:text="1"
                         android:textColor="#000000"
                         android:textSize="22dp" />
 
                     <TextView
-                        android:layout_width="14dp"
+                        android:layout_width="25dp"
                         android:layout_height="match_parent"
-                        android:text="5"
+                        android:text="/5"
                         android:textColor="#cccccc"
                         android:textSize="22dp"
                         android:textStyle="bold" />
@@ -362,19 +368,19 @@
                         android:layout_height="21dp"
                         android:layout_marginTop="-3dp"
                         android:background="@android:drawable/btn_star_big_on" />
-                    "/>
 
                     <TextView
-                        android:layout_width="23dp"
+                        android:id="@+id/JlistNum4"
+                        android:layout_width="15dp"
                         android:layout_height="match_parent"
-                        android:text="0/"
+                        android:text="1"
                         android:textColor="#000000"
                         android:textSize="22dp" />
 
                     <TextView
-                        android:layout_width="14dp"
+                        android:layout_width="25dp"
                         android:layout_height="match_parent"
-                        android:text="5"
+                        android:text="/5"
                         android:textColor="#cccccc"
                         android:textSize="22dp"
                         android:textStyle="bold" />
@@ -444,9 +450,7 @@
                     android:paddingLeft="10dp"
                     android:text="역접을 나타내는 표현"
                     android:textColor="#000000"
-                    android:textSize="32dp"
-
-                    />
+                    android:textSize="32dp" />
 
                 <LinearLayout
                     android:layout_width="60dp"
@@ -461,19 +465,19 @@
                         android:layout_height="21dp"
                         android:layout_marginTop="-3dp"
                         android:background="@android:drawable/btn_star_big_on" />
-                    "/>
 
                     <TextView
-                        android:layout_width="23dp"
+                        android:id="@+id/JlistNum5"
+                        android:layout_width="15dp"
                         android:layout_height="match_parent"
-                        android:text="0/"
+                        android:text="1"
                         android:textColor="#000000"
                         android:textSize="22dp" />
 
                     <TextView
-                        android:layout_width="14dp"
+                        android:layout_width="25dp"
                         android:layout_height="match_parent"
-                        android:text="5"
+                        android:text="/5"
                         android:textColor="#cccccc"
                         android:textSize="22dp"
                         android:textStyle="bold" />
@@ -482,10 +486,7 @@
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal">
-
-                </LinearLayout>
-
+                    android:orientation="horizontal"></LinearLayout>
 
                 <TextView
                     android:layout_width="63dp"
@@ -503,7 +504,6 @@
                     android:textColor="#ffffff"
                     android:textSize="18dp"
                     android:textStyle="bold" />
-
             </LinearLayout>
         </LinearLayout><!--List5 end-->
 
@@ -544,9 +544,7 @@
                     android:paddingLeft="10dp"
                     android:text="결과/결론을 나타내는 표현"
                     android:textColor="#000000"
-                    android:textSize="28dp"
-
-                    />
+                    android:textSize="28dp" />
 
                 <LinearLayout
                     android:layout_width="60dp"
@@ -561,19 +559,19 @@
                         android:layout_height="21dp"
                         android:layout_marginTop="-3dp"
                         android:background="@android:drawable/btn_star_big_on" />
-                    "/>
 
                     <TextView
-                        android:layout_width="23dp"
+                        android:id="@+id/JlistNum6"
+                        android:layout_width="15dp"
                         android:layout_height="match_parent"
-                        android:text="0/"
+                        android:text="1"
                         android:textColor="#000000"
                         android:textSize="22dp" />
 
                     <TextView
-                        android:layout_width="14dp"
+                        android:layout_width="25dp"
                         android:layout_height="match_parent"
-                        android:text="5"
+                        android:text="/5"
                         android:textColor="#cccccc"
                         android:textSize="22dp"
                         android:textStyle="bold" />

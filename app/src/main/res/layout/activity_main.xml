@@ -13,10 +13,10 @@
         android:orientation="vertical">
 
         <Button
+            android:id="@+id/gojapan"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="일본어로 가기"
-            android:id="@+id/gojapan"/>
+            android:text="일본어로 가기" />
 
         <!--List1 start-->
         <LinearLayout
@@ -75,16 +75,17 @@
                     "/>
 
                     <TextView
-                        android:layout_width="23dp"
+                        android:id="@+id/listNum1"
+                        android:layout_width="15dp"
                         android:layout_height="match_parent"
-                        android:text="0/"
+                        android:text="1"
                         android:textColor="#000000"
                         android:textSize="22dp" />
 
                     <TextView
-                        android:layout_width="14dp"
+                        android:layout_width="23dp"
                         android:layout_height="match_parent"
-                        android:text="5"
+                        android:text="/5"
                         android:textColor="#cccccc"
                         android:textSize="22dp"
                         android:textStyle="bold" />
@@ -174,16 +175,17 @@
                     "/>
 
                     <TextView
-                        android:layout_width="23dp"
+                        android:id="@+id/listNum2"
+                        android:layout_width="15dp"
                         android:layout_height="match_parent"
-                        android:text="0/"
+                        android:text="1"
                         android:textColor="#000000"
                         android:textSize="22dp" />
 
                     <TextView
-                        android:layout_width="14dp"
+                        android:layout_width="25dp"
                         android:layout_height="match_parent"
-                        android:text="5"
+                        android:text="/5"
                         android:textColor="#cccccc"
                         android:textSize="22dp"
                         android:textStyle="bold" />
@@ -274,16 +276,17 @@
                     "/>
 
                     <TextView
-                        android:layout_width="23dp"
+                        android:id="@+id/listNum3"
+                        android:layout_width="15dp"
                         android:layout_height="match_parent"
-                        android:text="0/"
+                        android:text="1"
                         android:textColor="#000000"
                         android:textSize="22dp" />
 
                     <TextView
-                        android:layout_width="14dp"
+                        android:layout_width="25dp"
                         android:layout_height="match_parent"
-                        android:text="5"
+                        android:text="/5"
                         android:textColor="#cccccc"
                         android:textSize="22dp"
                         android:textStyle="bold" />
@@ -371,19 +374,19 @@
                         android:layout_height="21dp"
                         android:layout_marginTop="-3dp"
                         android:background="@android:drawable/btn_star_big_on" />
-                    "/>
 
                     <TextView
-                        android:layout_width="23dp"
+                        android:id="@+id/listNum4"
+                        android:layout_width="15dp"
                         android:layout_height="match_parent"
-                        android:text="0/"
+                        android:text="1"
                         android:textColor="#000000"
                         android:textSize="22dp" />
 
                     <TextView
-                        android:layout_width="14dp"
+                        android:layout_width="25dp"
                         android:layout_height="match_parent"
-                        android:text="5"
+                        android:text="/5"
                         android:textColor="#cccccc"
                         android:textSize="22dp"
                         android:textStyle="bold" />
@@ -470,19 +473,19 @@
                         android:layout_height="21dp"
                         android:layout_marginTop="-3dp"
                         android:background="@android:drawable/btn_star_big_on" />
-                    "/>
 
                     <TextView
-                        android:layout_width="23dp"
+                        android:id="@+id/listNum5"
+                        android:layout_width="15dp"
                         android:layout_height="match_parent"
-                        android:text="0/"
+                        android:text="1"
                         android:textColor="#000000"
                         android:textSize="22dp" />
 
                     <TextView
-                        android:layout_width="14dp"
+                        android:layout_width="25dp"
                         android:layout_height="match_parent"
-                        android:text="5"
+                        android:text="/5"
                         android:textColor="#cccccc"
                         android:textSize="22dp"
                         android:textStyle="bold" />
@@ -570,19 +573,19 @@
                         android:layout_height="21dp"
                         android:layout_marginTop="-3dp"
                         android:background="@android:drawable/btn_star_big_on" />
-                    "/>
 
                     <TextView
-                        android:layout_width="23dp"
+                        android:id="@+id/listNum6"
+                        android:layout_width="15dp"
                         android:layout_height="match_parent"
-                        android:text="0/"
+                        android:text="1"
                         android:textColor="#000000"
                         android:textSize="22dp" />
 
                     <TextView
-                        android:layout_width="14dp"
+                        android:layout_width="25dp"
                         android:layout_height="match_parent"
-                        android:text="5"
+                        android:text="/5"
                         android:textColor="#cccccc"
                         android:textSize="22dp"
                         android:textStyle="bold" />
