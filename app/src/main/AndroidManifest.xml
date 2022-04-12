@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.grammar_page1">
+    package="com.example.Grammar_English">
 
     <application
         android:allowBackup="true"
@@ -10,32 +10,56 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Grammar_page1">
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.Grammar_English.MainActivity"
             android:exported="true">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".Day1Activity"
-            android:label="Day1 액티비티" />
-        <activity
-            android:name=".Day2Activity"
-            android:label="Day2 액티비티" />
-        <activity
-            android:name=".Day3Activity"
-            android:label="Day3 액티비티" />
-        <activity
-            android:name=".Day4Activity"
-            android:label="Day4 액티비티" />
-        <activity
-            android:name=".Day5Activity"
-            android:label="Day5 액티비티" />
-        <activity
-            android:name=".Day6Activity"
-            android:label="Day6 액티비티" />
-    </application>
 
+        <!--영어 문법-->
+        <activity
+            android:name="com.example.Grammar_English.EngDay1"
+            android:label="EngDay1 액티비티" />
+        <activity
+            android:name="com.example.Grammar_English.EngDay2"
+            android:label="EngDay2 액티비티" />
+        <activity
+            android:name="com.example.Grammar_English.EngDay3"
+            android:label="EngDay3 액티비티" />
+        <activity
+            android:name="com.example.Grammar_English.EngDay4"
+            android:label="EngDay4 액티비티" />
+        <activity
+            android:name="com.example.Grammar_English.EngDay5"
+            android:label="EngDay5 액티비티" />
+        <activity
+            android:name="com.example.Grammar_English.EngDay6"
+            android:label="EngDay6 액티비티" />
+
+        <!--일본어 문법-->
+        <activity
+            android:name="com.example.Grammar_English.JapanMain"
+            android:label="JapanList 액티비티" />
+        <activity
+            android:name="com.example.Grammar_English.JapDay1"
+            android:label="JapDay1 액티비티" />
+        <activity
+            android:name="com.example.Grammar_English.JapDay2"
+            android:label="JapDay2 액티비티" />
+        <activity
+            android:name="com.example.Grammar_English.JapDay3"
+            android:label="JapDay3 액티비티" />
+        <activity
+            android:name="com.example.Grammar_English.JapDay4"
+            android:label="JapDay4 액티비티" />
+        <activity
+            android:name="com.example.Grammar_English.JapDay5"
+            android:label="JapDay5 액티비티" />
+        <activity
+            android:name="com.example.Grammar_English.JapDay6"
+            android:label="JapDay6 액티비티" />
+    </application>
 </manifest>

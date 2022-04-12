@@ -1,4 +1,4 @@
-package com.example.grammar_page1;
+package com.example.Grammar_English;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -7,7 +7,7 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.ViewFlipper;
 
-public class Day3Activity extends Activity {
+public class JapDay1 extends Activity {
     Button btn1, btn2, btnBack;
     TextView currentText;
     ViewFlipper vFlipper;
@@ -16,7 +16,7 @@ public class Day3Activity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.day3);
+        setContentView(R.layout.japstudy1);
 
         btnBack = (Button) findViewById(R.id.btnReturn);//돌아가기
         btn1 = (Button) findViewById(R.id.prevBtn);//이전
@@ -63,4 +63,3 @@ public class Day3Activity extends Activity {
     }
 
 }
-

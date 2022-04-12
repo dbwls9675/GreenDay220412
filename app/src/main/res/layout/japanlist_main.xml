@@ -5,18 +5,12 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".JapanMain">
 
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:orientation="vertical">
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="일본어로 가기"
-            android:id="@+id/gojapan"/>
 
         <!--List1 start-->
         <LinearLayout
@@ -27,7 +21,7 @@
             android:layout_alignParentTop="true"
             android:layout_marginLeft="27dp"
             android:layout_marginTop="40dp"
-            android:background="#0C7AFC"
+            android:background="#bd91ff"
             android:clickable="true"
             android:orientation="vertical">
 
@@ -53,7 +47,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:paddingLeft="10dp"
-                    android:text="시간부사"
+                    android:text="시간 및 순서 표현"
                     android:textColor="#000000"
                     android:textSize="36dp"
 
@@ -127,7 +121,7 @@
             android:layout_alignParentTop="true"
             android:layout_marginLeft="27dp"
             android:layout_marginTop="40dp"
-            android:background="#0C7AFC"
+            android:background="#AE7BFA"
             android:clickable="true"
             android:orientation="vertical">
 
@@ -152,9 +146,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:paddingLeft="10dp"
-                    android:text="부사절"
+                    android:text="조건을 나타내는 표현"
                     android:textColor="#000000"
-                    android:textSize="36dp"
+                    android:textSize="32dp"
 
                     />
 
@@ -162,7 +156,6 @@
                     android:layout_width="60dp"
                     android:layout_height="30dp"
                     android:layout_gravity="right"
-                    android:layout_marginTop="-5dp"
                     android:layout_marginRight="6dp"
                     android:orientation="horizontal">
 
@@ -201,7 +194,7 @@
                     android:layout_width="63dp"
                     android:layout_height="25dp"
                     android:layout_marginLeft="272dp"
-                    android:layout_marginTop="-95dp"
+                    android:layout_marginTop="-93dp"
                     android:background="@drawable/rectangle_3"
                     android:elevation="4dp"
                     android:shadowColor="#33000000"
@@ -227,7 +220,7 @@
             android:layout_alignParentTop="true"
             android:layout_marginLeft="27dp"
             android:layout_marginTop="40dp"
-            android:background="#0C7AFC"
+            android:background="#AE7BFA"
             android:clickable="true"
             android:orientation="vertical">
 
@@ -252,17 +245,15 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:paddingLeft="10dp"
-                    android:text="부정형용사"
+                    android:text="이유/원인을 나타내는 표현"
                     android:textColor="#000000"
-                    android:textSize="36dp"
-
-                    />
+                    android:textSize="28dp" />
 
                 <LinearLayout
                     android:layout_width="60dp"
                     android:layout_height="30dp"
                     android:layout_gravity="right"
-                    android:layout_marginTop="-5dp"
+                    android:layout_marginTop="5dp"
                     android:layout_marginRight="6dp"
                     android:orientation="horizontal">
 
@@ -327,7 +318,7 @@
             android:layout_alignParentTop="true"
             android:layout_marginLeft="27dp"
             android:layout_marginTop="40dp"
-            android:background="#0C7AFC"
+            android:background="#AE7BFA"
             android:clickable="true"
             android:orientation="vertical">
 
@@ -352,9 +343,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:paddingLeft="10dp"
-                    android:text="현재/과거/미래시제"
+                    android:text="기능/곤란을 나타내는 표현"
                     android:textColor="#000000"
-                    android:textSize="36dp"
+                    android:textSize="28dp"
 
                     />
 
@@ -362,7 +353,7 @@
                     android:layout_width="60dp"
                     android:layout_height="30dp"
                     android:layout_gravity="right"
-                    android:layout_marginTop="-5dp"
+                    android:layout_marginTop="5dp"
                     android:layout_marginRight="6dp"
                     android:orientation="horizontal">
 
@@ -426,7 +417,7 @@
             android:layout_alignParentTop="true"
             android:layout_marginLeft="27dp"
             android:layout_marginTop="40dp"
-            android:background="#0C7AFC"
+            android:background="#AE7BFA"
             android:clickable="true"
             android:orientation="vertical">
 
@@ -451,9 +442,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:paddingLeft="10dp"
-                    android:text="전치사"
+                    android:text="역접을 나타내는 표현"
                     android:textColor="#000000"
-                    android:textSize="36dp"
+                    android:textSize="32dp"
 
                     />
 
@@ -461,7 +452,7 @@
                     android:layout_width="60dp"
                     android:layout_height="30dp"
                     android:layout_gravity="right"
-                    android:layout_marginTop="-5dp"
+                    android:layout_marginTop="5dp"
                     android:layout_marginRight="6dp"
                     android:orientation="horizontal">
 
@@ -500,7 +491,7 @@
                     android:layout_width="63dp"
                     android:layout_height="25dp"
                     android:layout_marginLeft="272dp"
-                    android:layout_marginTop="-95dp"
+                    android:layout_marginTop="-100dp"
                     android:background="@drawable/rectangle_3"
                     android:elevation="4dp"
                     android:shadowColor="#33000000"
@@ -526,7 +517,7 @@
             android:layout_marginLeft="27dp"
             android:layout_marginTop="40dp"
             android:layout_marginBottom="40dp"
-            android:background="#0C7AFC"
+            android:background="#AE7BFA"
             android:clickable="true"
             android:orientation="vertical">
 
@@ -551,9 +542,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:paddingLeft="10dp"
-                    android:text="to 부정사"
+                    android:text="결과/결론을 나타내는 표현"
                     android:textColor="#000000"
-                    android:textSize="36dp"
+                    android:textSize="28dp"
 
                     />
 
@@ -561,7 +552,7 @@
                     android:layout_width="60dp"
                     android:layout_height="30dp"
                     android:layout_gravity="right"
-                    android:layout_marginTop="-5dp"
+                    android:layout_marginTop="5dp"
                     android:layout_marginRight="6dp"
                     android:orientation="horizontal">
 
